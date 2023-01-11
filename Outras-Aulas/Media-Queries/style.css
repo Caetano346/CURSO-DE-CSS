@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+:root {
+    --fonte-padrao: 'Poppins', Arial, Verdana, Helvetica, sans-serif;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    color: white;
+    font-size: 14px;
+}
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+        color: white;
+    }
+
+    h1{
+        font-size: 2.2em;
+    }
+
+    h2{
+        color: white;
+        font-size: 1.6em;
+    }
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: green;
+        color: white;
+    }
+
+    h1{
+        font-size: 2.4em;
+    }
+
+    h2{
+        color: white;
+        font-size: 1.8em;
+    }
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: yellow;
+        color: black;
+    }
+
+    h1{
+        font-size: 2.6em;
+    }
+
+    h2{
+        color: black;
+        font-size: 2em;
+    }
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: red;
+        color: white;
+    }
+
+    h1{
+        font-size: 2.8em;
+    }
+
+    h2{
+        color: white;
+    }
+
+    .exemplo-01{
+        display: none;
+    }
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: violet;
+        color: black;
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+    h2{
+        color: black;
+    }
+}

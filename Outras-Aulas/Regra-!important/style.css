@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+:root {
+    --fonte-padrao: 'Poppins', Arial, Verdana, Helvetica, sans-serif;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+}
+
+h1#titulo-de-especificação{
+    background-color: white !important;
+    color: black !important; 
+}
+
+/*  
+     ID > CLASS > SELETOR BÁSICO 
+     
+     É RUIM USAR !IMPORTANT EM TAGS AO MENOS QUE SEJA MUITO NECESSÁRIO 
+*/
+
+#meuid{
+    color: red;
+}
+
+.minhaclasse{
+    color: blue;
+}
+
+h1{
+    color: green !important;
+}
